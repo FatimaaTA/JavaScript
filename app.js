@@ -275,24 +275,204 @@
 //      thirdSubject+space+totalOf1Subject+space+thirdSubjectNo+space+percentOf3rdSubject+"%<br>"+
 //      space1+totalmarks+space+totalObtOfAllSub+space+totalPercentage+"%");
 
+/* ******************Chapter 9 to 11******************
+
+ ------Question 1------*/
+// var city = prompt("Enter city name?");
+// if(city.toLowerCase() === "karachi"){
+//     document.write("Welcome to city of lights");
+// }
+// else{
+//     document.write("Not matched");
+// }
+
+// ------Question 2------
+// var gender = prompt("Enter your gender?");
+// if(gender.toLowerCase() === "male"){
+//     document.write("Good Morning Sir");
+// }
+// else{
+//     document.write("Good Morning Ma'am");
+// }
 
 
+// ------Question 3------
 
+// var signalColor = prompt("Enter color of road traffic signal (RED,YELLOW,GREEN)?");
+// if(signalColor.toLowerCase() === "red"){
+//     document.write("Must Stop");
+// }
+// else if(signalColor.toLowerCase() === "yellow"){
+//     document.write("Ready to move");
+// }
+// else if(signalColor.toLowerCase() === "green"){
+//     document.write("Move now");
 
- 
+// }
+// else{
+//     document.write("You have entered wrong color");
 
+// }
 
+// ------Question 4------
+// var fuel = parseFloat(prompt("Enter remaining fuel in car (in litres)? "));
+// if(fuel < 0.25){
+//     document.write("Please refill the fuel in your car");
+// }
+// else {
+//     document.write("You have enough fuel");
+// }
 
+// ------Question 5------
+// ------Part a-------------------------------------------------
+// var a = 4;
+// if (++a === 5){
+// alert("given condition for variable a is true");
+// }
+//Alert Message is displayed
+ // ------Part b-----------------------------------------------
+//  var b = 82;
+//  if (b++ === 83){
+//  alert("given condition for variable b is true");
+//  }
+//Alert message is not displayed 
+// ------Part c----------------------------------------------
+// var c = 12;
+// if (c++ === 13){
+// alert("condition 1 is true");
+// }
+// if (c === 13){
+// alert("condition 2 is true");
+// }
+// if (++c < 14){
+// alert("condition 3 is true");
+// }
+// if(c === 14){
+// alert("condition 4 is true");
+// }
+//Alert Message is displayed condition 2 & 4 is true
+// ------Part d----------------------------------------------
+// var materialCost = 20000;
+// var laborCost = 2000;
+// var totalCost = materialCost + laborCost;
+// if (totalCost === laborCost + materialCost){
+// alert("The cost equals");
+// }
+//Alert Message is displayed
+// ------Part e----------------------------------------------
+// if (true){
+// alert("True");
+// }
+// if (false){
+// alert("False");
+// }
+//Alert true Message is displayed
+// ------Part f----------------------------------------------
+// if("car" < "cat"){
+//     alert("car is smaller than cat");
+//     }
+  //Alert Message is displayed
+  
+// ------Question 6------
+//   var subjects=prompt("Enter 3 subjects name?","Math  ,  Phys  ,  Urdu"),
+//        firstSubject = subjects.split(",")[0],
+//        secondSubject = subjects.split(",")[1],
+//        thirdSubject = subjects.split(",")[2];
+//   var obtainedMarks = prompt("Enter 3 subjects number?","50  ,  68  ,  82"),
+//        firstSubjectNo = parseInt(obtainedMarks.split(",")[0]),
+//        secondSubjectNo = parseInt(obtainedMarks.split(",")[1]),
+//        thirdSubjectNo = parseInt(obtainedMarks.split(",")[2]);
+//        var totalmarks = 300;
+//        var totalObtOfAllSub = firstSubjectNo+secondSubjectNo+thirdSubjectNo;
+//        var totalPercentage = parseInt((totalObtOfAllSub/(totalmarks))*100);
+//        document.write("<h1>Marks Sheet</h1><br>Total Marks : "+totalmarks+"<br>Obtained Marks : "+totalObtOfAllSub+"<br>Percentage : "+totalPercentage+
+//        "<br>");
+//        if(totalPercentage >= 80){
+//            document.write("Grade : A-one<br>Excellent");
+//        }
+//        else if(totalPercentage >= 70){
+//         document.write("Grade : A<br>Good");
+//     }
+//     else if(totalPercentage >= 60){
+//         document.write("Grade : B<br>You need to improve");
+//     }
+//     else{
+//         document.write("Fail<br>Sorry");
+//     }
 
+// ------Question 7------
+    // var secretNumber = 5;
+    // var guessNumber = parseInt(prompt("Enter a number (ranging from 1 to 10)?"));
+    // if(guessNumber === secretNumber){
+    //   document.write("Bingo! Correct answer");
+    // }
+    // else if((guessNumber+1) === secretNumber){
+    //     document.write("Close enough to the correct answer");
+    // }
+    // else{
+    //     document.write("Sorry! Incorrect Answer");
+    // }
 
+// ------Question 8------
+//    var number = parseInt(prompt("Enter a number?"));
+//    if((number % 3) === 0){
+//     document.write("The input number is divisible by 3<br>");
+//    }
+//    else{
+//     document.write("The input number is not divisible by 3<br>");
+//    }
 
+// ------Question 9------
+// var number = parseInt(prompt("Enter a number?"));
+// if((number % 2) === 0){
+//  document.write("The input number is even<br>");
+// }
+// else{
+//  document.write("The input number is odd<br>");
+// }
 
+// ------Question 10------
+// var temperature = parseInt(prompt("Enter a temperature?"));
+// if(temperature > 40){
+//  document.write("It is too hot outside.<br>");
+// }
+// else if(temperature > 30){
+//  document.write("The Weather today is Normal.<br>");
+// }
+// else if(temperature > 20){
+//     document.write("Today’s Weather is cool.<br>");
+//    }
+//    else if(temperature > 10){
+//     document.write("OMG! Today’s weather is so Cool.<br>");
+//    }
+// else{
+//     document.write("OMG! Its freezing outside.<br>");
 
+// }
 
-
-
-
-
+// ------Question 11------
+//   var input = prompt("Enter two numbers?","6  ,  5"),
+//        firstNo = parseInt(input.split(",")[0]),
+//        secondNo = parseInt(input.split(",")[1]);
+//        operator = prompt("Enter operator(+,-,*,/&%)?","%")
+//        if(operator === "+"){
+//            document.write("The Sum of "+firstNo+" + "+secondNo+" = "+(firstNo+secondNo));
+//        }
+//        else if(operator === "-"){
+//         document.write("The Subtration of "+firstNo+" - "+secondNo+" = "+(firstNo-secondNo));
+//     }
+//     else if(operator === "*"){
+//         document.write("The Multiplication of "+firstNo+" * "+secondNo+" = "+(firstNo*secondNo));
+//     }
+//     else if(operator === "%"){
+//         document.write("The modulus of "+firstNo+" % "+secondNo+" = "+(firstNo%secondNo));
+//     }
+//     else if(operator === "/"){
+//         document.write("The division of "+firstNo+" / "+secondNo+" = "+(firstNo/secondNo));
+//     }
+//     else {
+//         document.write("You have entered wrong Operator");
+//     }
 
 
 
