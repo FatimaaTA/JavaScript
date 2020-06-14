@@ -216,7 +216,7 @@
 // "<br>Estimated max age : "+maxAge+"<br>Amount of snacks per day : "+snackPerDay+"<br>You will need "+
 // SnackTillMaxAge+" to last you until the ripe old age of "+maxAge);
 
-/* ******************Chapter 6******************
+/* ******************Chapter 6 to 9******************
 
  ------Question 1------*/
 // var a = 10;
