@@ -771,12 +771,13 @@
 // }
 
 //  ------Question 7------
-// var bakkery = ["cake", "apple pie", "cookie", "chips", "patties"];
-// var input = prompt("Welcome to ABc Bakkery. What do you want to order");
-// for (var i =0; i<bakkery.length; i++){
-//   if(input === bakkery[i]){
-//     alert("Given item is found");
-//   }
+var bakkery = ["cake", "apple pie", "cookie", "chips", "patties"];
+var input = prompt("Welcome to ABc Bakkery. What do you want to order");
+  if(bakkery.indexOf(input) !== -1){
+    alert("Given item is found");}
+  else{
+    alert("Given item is not found");
+  }
 
 //  ------Question 8------
 // var number =[1,4,6,7,8];
