@@ -475,12 +475,104 @@
 //     }
 
 
+/* ******************Chapter 12 to 13******************
 
+ ------Question 1------*/
+//  var character = prompt("Enter a character(A-z or a-z)?","A");
+//  character = character.charCodeAt();
+//  if(character >= 65  && character <= 90){
+//   document.write("The input character is a uppercase letter");
+//  }
+//  else if(character >= 97  && character <= 122){
+//   document.write("The input character is a lowercase letter");
+//  }
+//  else{
+//    document.write("The input character is not a letter");
+//  }
 
+// ------Question 2------
+  // var input = prompt("Enter two numbers?","6  ,  5"),
+  //      firstNo = parseInt(input.split(",")[0]),
+  //      secondNo = parseInt(input.split(",")[1]);
+  //      if(firstNo > secondNo){
+  //        document.write("The largest number from "+firstNo+" and "+secondNo+" is "+firstNo);
+  //      }
+  //      else if(secondNo > firstNo){
+  //       document.write("The largest number from "+firstNo+" and "+secondNo+" is "+secondNo);
+  //     }
+  //     else if(firstNo === secondNo){
+  //       document.write(firstNo+" and "+secondNo+" are equal numbers");
+  //     }
+  //     else{
+  //       document.write("Not a number");
+  //     }
 
+// ------Question 3------
+//  var input = parseInt(prompt("Enter a number?","0"));
+//  if (input > 0){
+//    document.write("The given number "+input+" is Positive");
+//  }
+//  else if (input < 0){
+//   document.write("The given number "+input+" is Negative");
+//  }
+//  else{
+//   document.write("The given number "+input+" is Zero");
 
+//  }
 
+// ------Question 4------
+//  var character = prompt("Enter a character?","A");
+//  var input = character;
+//  character = character.toLowerCase();
+//  character = character.charCodeAt();
+//  if(character === 97 || character === 101 || character === 105 || character === 111 || character === 117){
+//    document.write("True, the input character “"+input+ "” is a vowel");
+//  }
+//  else{
+//   document.write("False, the input character “"+input+ "” is not a vowel");
 
+//  }
 
+// ------Question 5------
+//  var input = prompt("Enter a password?");
+//  if(input === "1234A"){
+//   document.write("Correct! The password you entered matches the original password");
+//  }
+//  else if(input === ""){
+//   document.write("Please enter your password");
+//  }
+//  else{
+//   document.write("Incorrect password!");
 
+//  }
 
+// ------Question 6------
+// var greeting;
+// var hour = 13;
+// if (hour < 18) {
+// greeting = "Good day";
+// document.write(greeting)
+// }
+// else{
+// greeting = "Good evening";
+// document.write(greeting)
+// }
+
+// ------Question 7------
+// var time = prompt("Enter time in 24hrs format?(i.e 1900=7pm don't use (:))","2000");
+// if(time >= "0000" && time < "1200"){
+//   document.write("Good Morning! its "+time+" o'clock");
+// }
+// else if(time >= "1200" && time < "1700"){
+//   document.write("Good Afternoon! its "+time+" o'clock");
+// }
+// else if(time >= "1700" && time < "2100"){
+//   document.write("Good Evening! its "+time+" o'clock");
+// }
+// else if(time >= "2100" && time < "2359"){
+//   document.write("Good Night! its "+time+" o'clock");
+// }
+// else{
+//   document.write("You have entered invalid time");
+
+// }
