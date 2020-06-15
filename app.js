@@ -576,3 +576,128 @@
 //   document.write("You have entered invalid time");
 
 // }
+
+/* ******************Chapter 14 to 16******************
+
+ ------Question 1------*/
+//  var studentName = {};
+
+// ------Question 2------
+//  var studentName = new Object();
+
+// ------Question 3------
+// var cities = ["Atlanta", "Baltimore", "Chicago", "Denver", "Los Angeles", "Seattle"];
+
+// ------Question 4------
+// var numbers = [1, 2, 3, 4, 5];
+
+// ------Question 5------
+// var booleanArray = [true,false];
+
+// ------Question 6------
+// var mixedArray = [1,"fatima",true];
+
+// ------Question 7------
+// var education = [ "SSC", "HSC", "BCS", "BS", "BCOM", "MS", "M. Phil.", "PhD"];
+// document.write("<h1>Qualification</h1><br>1)"+education[0]+"<br>2)"+education[1]+"<br>3)"+education[3]+"<br>4)"+education[4]+"<br>5)"+
+// education[5]+"<br>6)"+education[6]+"<br>7)"+education[7]+"<br>");
+
+// ------Question 8------
+// var studentName = ["Micheal","John","Tony"];
+// var score = [300,350,400];
+// var percenteOfStudent1 = (score[0]/500)*100;
+// var percenteOfStudent2 = (score[1]/500)*100;
+// var percenteOfStudent3 = (score[2]/500)*100;
+// document.write("Score of "+studentName[0]+" is "+score[0]+". Percentage : "+percenteOfStudent1+"<br>"+
+// "Score of "+studentName[1]+" is "+score[1]+". Percentage : "+percenteOfStudent2+"<br>"+
+// "Score of "+studentName[2]+" is "+score[2]+". Percentage : "+percenteOfStudent3+"<br>");
+
+// ------Question 9------
+// ------Part a---------------------------------------------------------------------------------------------------------
+// var colors = [ "red", "blue", "green"];
+// var inputColor = prompt("What color do you want to add at the begining of the array?","orange");
+// document.write("Array before taking input color : "+colors+"<br>");
+// colors.unshift(inputColor);
+// document.write("Updated Array : "+colors);
+// ------Part b---------------------------------------------------------------------------------------------------------
+// var colors = [ "red", "blue", "green"];
+// var inputColor = prompt("What color do you want to add at the end of the array?","orange");
+// document.write("Array before taking input color : "+colors+"<br>");
+// colors.splice(3,0,inputColor);
+// document.write("Updated Array : "+colors);
+// ------Part c---------------------------------------------------------------------------------------------------------
+//  var colors = [ "red", "blue", "green"];
+//  var inputColor = prompt("What colors do you want to add at the begining of the array?","orange, yellow");
+//  document.write("Array before taking input color : "+colors+"<br>");
+//  colors.unshift(inputColor);
+//  document.write("Updated Array : "+colors);
+// ------Part d---------------------------------------------------------------------------------------------------------
+// var colors = [ "red", "blue", "green"];
+// document.write("Original Array : "+colors+"<br>");
+// colors.shift();
+// document.write("Updated Array : "+colors);
+// ------Part e---------------------------------------------------------------------------------------------------------
+// var colors = [ "red", "blue", "green"];
+// document.write("Original Array : "+colors+"<br>");
+// colors.splice(2);
+// document.write("Updated Array : "+colors);
+// ------Part f---------------------------------------------------------------------------------------------------------
+// var colors = [ "red", "blue", "green"];
+// var inputColor = prompt("What color do you want to add and at which index","orange , 1"),
+// col = inputColor.split(",")[0],
+// index =parseInt(inputColor.split(",")[1]);
+// document.write("Array before taking input color and index : "+colors+"<br>");
+// colors.splice(index,0,col);
+// document.write("Updated Array : "+colors);
+// ------Part g---------------------------------------------------------------------------------------------------------
+// var colors = [ "red", "blue", "green","yellow","orange"];
+// var inputColor = prompt("How many colors do you want to delete and at which index","2 , 1"),
+// col = parseInt(inputColor.split(",")[0]),
+// index =parseInt(inputColor.split(",")[1]);
+// document.write("Array before taking input : "+colors+"<br>");
+// colors.splice(index,col);
+// document.write("Updated Array : "+colors);
+
+// ------Question 10------
+// var score = [300,350,400,250,460];
+// document.write("Before Sorting : "+score+"<br>");
+// score.sort();
+// document.write("After Sorting : "+score);
+
+// ------Question 11------
+// var cities = ["Karachi","Lahore","Rawalpindi","Quetta","Islamabad"];
+// var selectedCities = cities.slice(1,4);
+// document.write("Cities list : "+cities+"<br>Selected cities : "+selectedCities);
+
+// ------Question 12------
+// var arr = ["This" , "is", "my", "cat"];
+// var joinArray = arr.join(" ");
+// document.write("Array : "+arr+"<br>String :"+joinArray);
+
+// ------Question 13------
+// var fruits = ["Banana", "Orange", "Apple", "Mango"];
+// document.write("Fruits : "+fruits+"<br>");
+// var output;
+// for(var i=0; i<4; i++){
+// output = fruits.shift();
+// document.write("Output : "+output+"<br>")
+// }
+
+// ------Question 14------
+// var fruits = ["Banana", "Orange", "Apple", "Mango"];
+// document.write("Fruits : "+fruits+"<br>");
+// var output;
+// for(var i=0; i<4; i++){
+// output = fruits.pop();
+// document.write("Output : "+output+"<br>")
+// }
+
+// ------Question 15------
+// var menu = ["Apple","Samsung", "Motorola", "Nokia", "Sony & Haier"];
+// var output;
+// document.write("Dropdown<br>");
+// for(var i=1; i<=5; i++){
+// output = menu.shift();
+// document.write(i+") "+output+"<br>")
+// }
+
