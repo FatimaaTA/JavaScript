@@ -694,10 +694,128 @@
 
 // ------Question 15------
 // var menu = ["Apple","Samsung", "Motorola", "Nokia", "Sony & Haier"];
-// var output;
-// document.write("Dropdown<br>");
-// for(var i=1; i<=5; i++){
-// output = menu.shift();
-// document.write(i+") "+output+"<br>")
+// document.write("<select>");
+// for(var i=0; i<menu.length; i++){
+// document.write("<option> "+menu[i]+"</option>")
+// }
+// document.write("<select>");
+
+
+/* ******************Chapter 17 to 20******************
+
+ ------Question 1------*/
+//  var array=[[],[]];
+
+//  ------Question 2------
+// var array =[[],[]];
+//  for (var i = 0; i < 3; i++){
+//    for(var j = 0; j < 4; j++){
+//      array[i][j]=j;
+//      document.write(array[i][j]);
+//    }
+//    document.write("<br>");
+
+//  }
+
+//  ------Question 3------
+// for(var i=1; i<=10; i++){
+//   document.write(i+"<br>");
 // }
 
+//  ------Question 4------
+//  var input = prompt("Enter a numbers whose table you want to print and also length ?","6  ,  5"),
+//        number = parseInt(input.split(",")[0]),
+//        tableLength = parseInt(input.split(",")[1]);
+//        document.write("<h1>Table of "+number+"</h1><h3>Length : "+tableLength+"</h3>");
+//        for(var i=1; i<=tableLength; i++){
+//          document.write(number+" X "+i+" = "+(number*i)+"<br>");
+//        }
+
+//  ------Question 5------
+// var fruits = ["apple", "banana", "mango", "orange","strawberry"];
+// document.write("Array Items : "+fruits.join(" ")+"<br>");
+//       for(var i=0; i<fruits.length; i++){
+//            document.write("Element at index 0 is "+fruits[i]+"<br>");
+//          }
+
+//  ------Question 6------
+//  ------Part a----------------------------------------------------------------------------------------------------
+// document.write("<b>Counting :</b> "+"<br>");
+//  for(var i=0; i<=15; i++){
+//  document.write(i+" ");
+//  }
+//  //  ------Part b----------------------------------------------------------------------------------------------------
+//  document.write("<br><b>Reverse :</b> "+"<br>");
+//  for(var i=10; i>=1; i--){
+//   document.write(i+" ");
+// }
+//  //  ------Part c----------------------------------------------------------------------------------------------------
+//  document.write("<br><b>Even :</b> "+"<br>");
+//  for(var i=0; i<=20; i++){
+//    if((i%2) === 0)
+//   document.write(i+" ");
+// }
+// //  ------Part d----------------------------------------------------------------------------------------------------
+// document.write("<br><b>Odd :</b> "+"<br>");
+// for(var i=0; i<=20; i++){
+//   if((i%2) !== 0)
+//  document.write(i+" ");
+// }
+// //  ------Part e----------------------------------------------------------------------------------------------------
+// document.write("<br><b>Series :</b> "+"<br>");
+// var b = 0;
+// for(var i=0; i<10; i++ ){
+//   b = b+2;
+//  document.write(b+"K ");
+ 
+// }
+
+//  ------Question 7------
+// var bakkery = ["cake", "apple pie", "cookie", "chips", "patties"];
+// var input = prompt("Welcome to ABc Bakkery. What do you want to order");
+// for (var i =0; i<bakkery.length; i++){
+//   if(input === bakkery[i]){
+//     alert("Given item is found");
+//   }
+
+//  ------Question 8------
+// var number =[1,4,6,7,8];
+// var a = number[0];
+// for (var i =0; i<number.length; i++){
+//   if(a > number[i]){
+
+//     a=a;
+
+//   }
+  
+//   else{
+//   a = number[i];}
+// }
+// document.write(number+"<br>"+a);
+
+//  ------Question 9------
+// var number =[1,4,6,7,8];
+// var a = number[0];
+// for (var i =0; i<number.length; i++){
+//   if(a < number[i]){
+
+//     a=a;
+
+//   }
+  
+//   else{
+//   a = number[i];}
+// }
+// document.write(number+"<br>"+a);
+
+//  ------Question 10------
+// var number = 5;
+// document.write("<h1>Multiples of 5 : </h1>");
+
+// for (var i =1; i<=100; i++){
+//   if(i%number === 0){
+
+//     document.write(i+" ");
+//   }
+  
+// }
